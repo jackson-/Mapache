@@ -19,19 +19,6 @@
 		</nav>
 		{{/if}}
 
-		<form id="header-search" class="header-search hide-before-md" >
-			<div id="searchbox" class="searchbox">
-				<input id="searchbox-input" placeholder="Search" type="text" class="search-field" name="q" value="" autocomplete="off">
-				<span class="search-icon i-search"></span>
-			</div>
-
-			<div class="search-popout closed">
-				<div id="search-results" class="search-suggest-results" style="display:none"></div>
-			</div>
-		</form>
-
-		<a href="#" id="search-btn" class="search-btn header-btn hide-after-md i-close i-search"></a>
-
 		<div class="header-social hide-before-lg social_box">
 			{{#if @blog.facebook}} <a title="Facebook {{@blog.facebook}}" href="{{facebook_url}}" target="_blank" class="i-facebook"></a>{{/if}}
 			{{#if @blog.twitter}} <a title="Twitter {{@blog.twitter}}" href="{{twitter_url}}" target="_blank" class="i-twitter"></a>{{/if}}
