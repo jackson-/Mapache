@@ -39,3 +39,8 @@ npm-debug.log
 
 
 .vscode
+
+##PyCharm shit
+*.xml
+*iml
+*idea
